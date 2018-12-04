@@ -1,4 +1,4 @@
-# airport_hazard_lights
+# Airport Hazard Lights
 Airport Hazard Lights Simulator on the FPGA DE1-SoC
 
 The landing lights at Sea-Tac are busted, so I had to come up with a new set. In order to show pilots the wind direction across the runways, I simulated special wind indicators to put at the ends of all the runways at Sea-Tac onto my FPGA. The integrated circuit is given two inputs (SW[0] and SW[1]) to indicate wind direction, and three lights to display the corresponding sequence of lights:
